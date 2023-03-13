@@ -1,0 +1,13 @@
+type Query{
+    getWeatherData : Weather
+}
+
+type Weather{
+    timeStamp:String
+    location: String
+    temperature: Float
+
+}
+schema {
+    query: Query
+}
